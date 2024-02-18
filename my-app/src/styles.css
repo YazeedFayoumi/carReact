@@ -1,0 +1,10 @@
+.App{
+    text-emphasis: left;
+    display: flex;
+    flex-direction: row;
+    margin-top: 11%;
+}
+/* .cellF{
+    padding: 15px;
+    border: 1px solid black;
+} */
