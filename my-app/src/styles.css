@@ -1,10 +1,30 @@
-.App{
-    text-emphasis: left;
-    display: flex;
-    flex-direction: row;
-    margin-top: 11%;
-}
-/* .cellF{
-    padding: 15px;
-    border: 1px solid black;
-} */
+
+.App {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0; 
+    margin: 20px; 
+  }
+  
+  #uno,
+  #duos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0; 
+  }
+  
+  .cellR,
+  .cellL,
+  .cellF,
+  .cellZ {
+    width: calc(50% - 20px); 
+    margin: 10px; 
+  }
+  
+  
+  .car {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
