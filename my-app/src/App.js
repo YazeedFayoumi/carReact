@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import img from './R (2).jpg';
+import img from './images/R (2).jpg';
 import Car from './car';
-import img2 from './Lexus500.jpg'
-import img3 from './pickup.jpg'
-import img4 from './zely.jpg'
+import img2 from './images/Lexus500.jpg'
+import img3 from './images/pickup.jpg'
+import img4 from './images/zely.jpg'
 import './styles.css'
 
 function App() {
